@@ -20,4 +20,5 @@ from dingshiwork import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/',views.task),
+    path('index/',views.task1),
 ]
